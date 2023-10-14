@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Center Movie</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="keywords" content="Filmes, lançamentos, novo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icons/faviicone.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: hsl(238, 24%, 5%); color: #fff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img id="logo" src="icons/Icone.png" alt="Logo pipoca"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#mais">MAIS ASSISTIDOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#add">ADICIONADOS RECENTEMENTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#series">SÉRIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#animes">ANIMES</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input id="buscar" class="form-control me-2" type="search" placeholder="Procurar Filmes"
+              aria-label="Search">
+            <button class="btn " type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="banners">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner batman.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/cropped-1920-1080-182090.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner round6.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="movies">
+      <div class="box">
+
+
+    <div id="mais" class="title">
+      <h1>Mais assitidos</h1>
+    </div>
+
+    <section class="slide_movies">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+    
+          <div class="swiper-slide swiper-slide--one">
+            <span class="terror">Terror</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=0JZ8WGVSrwM"></a>
+          </div>
+         
+          <div class="swiper-slide swiper-slide--two">
+            <span class="suspense">Suspense</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=F3OxA9Cz17A"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--three">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=HluMG9tJXHM"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--four">
+            <span class="esporte">Esporte</span>
+            <a target="_blank" href="https://www.youtube.com/results?search_query=creed+3"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--five">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=zrtVOZ4YPFw"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--six">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=gZtmzT9Wgrw"></a>
+          </div>
+          
+          <div class="swiper-slide swiper-slide--seven">
+            <span class="aventura">Aventura</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=X23XCFgdh2M"></a>
+          </div>
+          
+          <div class="swiper-slide swiper-slide--eight">
+            <span class="aventura">Aventura</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=5UVaA6SGRZA"></a>
+          </div>
+          
+          <div class="swiper-slide swiper-slide--nine">
+            <span class="terror">Terror</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=F4LhySFaOMo"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+
+    
+    <div id="add" class="title">
+      <h1>Adicionados recentemente</h1>
+    </div>
+
+    <section class="slide_movies">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+    
+          <div class="swiper-slide swiper-slide--onea">
+            <span class="aventura">Aventura</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=j4fyrqoZddY"></a>
+          </div>
+         
+          <div class="swiper-slide swiper-slide--twoa">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=ME0QiRVsmVI"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--threea">
+            <span class="aventura">Aventura</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=7Hkedrl3xeE"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--foura">
+            <span class="terror">Terror</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=7MRcuN9_Pfo&t=1s"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--fivea">
+            <span class="aventura">Aventura</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=6jIz_8tokvg"></a>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--sixa">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=PbEloLH3iKQ"></a>
+          </div>
+          
+          <div class="swiper-slide swiper-slide--sevena">
+            <span class="aventura">Aventura</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=PHC412-pCoQ"></a>
+          </div>
+          
+          <div class="swiper-slide swiper-slide--eighta">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=8k0epOQUfQk"></a>
+          </div>
+          
+          <div class="swiper-slide swiper-slide--ninea">
+            <span class="acao">Ação</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=FlriFMTIPOg"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <div id="series" class="title">
+    <h1>Séries</h1>
+  </div>
+
+  <section class="slide_movies">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide swiper-slide--oneb">
+          <span class="terror">Terror</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=WjXQ7nnwmNc"></a>
+        </div>
+       
+        <div class="swiper-slide swiper-slide--twob">
+          <span class="suspense">Suspense</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=X4bF_quwNtw"></a>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--threeb">
+          <span class="comedia">Comédia</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=IEEbUzffzrk"></a>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--fourb">
+          <span class="drama">Drama</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=IEEbUzffzrk"></a>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--fiveb">
+          <span class="suspense">Suspense</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=VwOPA2upeCA"></a>
+        </div>
+  
+        <div class="swiper-slide swiper-slide--sixb">
+          <span class="drama">Drama</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=oVzVdvGIC7U"></a>
+        </div>
+        
+        <div class="swiper-slide swiper-slide--sevenb">
+          <span class="aventura">Aventura</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=qYkG7jPHAS8"></a>
+        </div>
+        
+        <div class="swiper-slide swiper-slide--eightb">
+          <span class="terror">Terror</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=Ncra_hUVtMM"></a>
+        </div>
+        
+        <div class="swiper-slide swiper-slide--nineb">
+          <span class="suspense">Suspense</span>
+          <a target="_blank" href="https://www.youtube.com/watch?v=apltEQy8RzQ&t=75s"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+<section class="slide_movies">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide swiper-slide--onec">
+        <span class="drama">Drama</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=Es3B24z8fdA"></a>
+      </div>
+     
+      <div class="swiper-slide swiper-slide--twoc">
+        <span class="drama">Drama</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=Ab2YIbP5xw8"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--threec">
+        <span class="suspense">Suspense</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=lW5kiEUVlpo"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--fourc">
+        <span class="comedia">Comedia</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=xvJL6qQ249A"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--fivec">
+        <span class="suspense">Suspense</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=Oqv81BdRs7w"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--sixc">
+        <span class="acao">Ação</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=43YeHlEOUCw"></a>
+      </div>
+      
+      <div class="swiper-slide swiper-slide--sevenc">
+        <span class="aventura">Aventura</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=tjujvMkqWe4"></a>
+      </div>
+      
+      <div class="swiper-slide swiper-slide--eightc">
+        <span class="suspense">Suspense</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=JCCssUOtn2E"></a>
+      </div>
+      
+      <div class="swiper-slide swiper-slide--ninec">
+        <span class="acao">Ação</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=iS5xXr-GOnM"></a>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+
+
+
+<div id="animes" class="title">
+  <h1>Animes</h1>
+</div>
+
+<section class="slide_movies">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide swiper-slide--oned">
+        <span class="terror">Terror</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=45pNWV47Cps"></a>
+      </div>
+     
+      <div class="swiper-slide swiper-slide--twod">
+        <span class="suspense">Suspense</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=YhrA6hjQbTw"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--threed">
+        <span class="acao">Ação</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=2Ny3YIZWQM0"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--fourd">
+        <span class="esporte">Esporte</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=ZGiBAG6Vp-E"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--fived">
+        <span class="acao">Ação</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=QczGoCmX-pI"></a>
+      </div>
+
+      <div class="swiper-slide swiper-slide--sixd">
+        <span class="acao">Ação</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=La2ZpdIP30U"></a>
+      </div>
+      
+      <div class="swiper-slide swiper-slide--sevend">
+        <span class="aventura">Aventura</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=wHAaKXtfSOg"></a>
+      </div>
+      
+      <div class="swiper-slide swiper-slide--eightd">
+        <span class="aventura">Aventura</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=9Ai3YX_G0nM"></a>
+      </div>
+      
+      <div class="swiper-slide swiper-slide--nined">
+        <span class="terror">Terror</span>
+        <a target="_blank" href="https://www.youtube.com/watch?v=ynr6gnyu9NE"></a>
+      </div>
+    </div>
+  </div>
+</section>
+   
+
+  <footer class="space">
+    <div class="lala">
+      <div class="social">
+        <h2>Redes Socias</h2>
+        <div class="social_icons">
+          <a target="_blank" href="https://github.com/Gusmaiadev"><img src="icons/icon_git.png" alt="Icone GitHub"></a>
+          <a target="_blank" href="https://instagram.com/gusbic?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img src="icons/icon_insta.png" alt="Icone Instagram"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/gustavo-maia-a14908258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="icons/icon_lin.png" alt="Icone Linkedin"></a>
+        </div>
+      </div>
+      <div class="sobre">
+        <a class="sele" href="#">Termos de uso</a>
+        <a href="#">|</a>
+        <a class="sele" href="#">Política de privacidade</a>
+        <a href="#">|</a>
+        <a class="sele" href="#">Perguntas frequentes</a>
+        <a class="sele" href="#">Como assistir</a>
+        <a href="#">|</a>
+        <a class="sele" href="#">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+  <script  src="./scripts.js"></script>
+</body>
+</html>

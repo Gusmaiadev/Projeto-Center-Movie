@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/bg2.svg');
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 60px;
+}
+
+
+.form-control:focus {
+    box-shadow: 0px 0px 5px hsl(337, 87%, 80%);
+    border: #f89ec1;
+}
+
+.btn {
+    border: 2px solid #f89ec1;
+    color: #ffffff;
+    transition: 0.3s all linear;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: hsl(337, 87%, 80%);
+    color: #fff;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    margin-left: 35px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.3s all linear;
+    font-weight: BOLD;
+}
+
+.nav-link:hover {
+    border-radius: 5px;
+    color: #f89ec1;
+
+}
+
+#buscar {
+    width: 300px;
+}
+
+.d-block {
+    cursor: pointer;
+    width: 100%;
+    height: 87vh;
+    object-fit: cover;
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 100%;
+}
+
+
+.title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    bottom: 50px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.title h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.slide_movies{
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 330px;
+  height: 420px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400);
+  background-size: cover;
+  height: 500px;
+  cursor: pointer;
+}
+
+.swiper-slide a{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 230px;
+}
+
+.acao {
+  background: #ff4800;
+}
+
+.aventura {
+  background: #3f8517;
+}
+
+.terror{
+  background:#000;
+}
+
+.suspense{
+  background: #087ac4;
+}
+
+.esporte{
+  background-color: #502c2b;
+}
+
+.comedia{
+  background-color: #681ab1;
+}
+
+.drama{
+  background-color: #5a5a5a;
+}
+
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+
+
+.swiper-slide--one {
+  background-image: url('../images/afreira.png');
+  
+}
+
+.swiper-slide--two {
+  background-image: url('../images/Cartaz\ OPPENHIMER.jpg');
+}
+
+.swiper-slide--three {
+  background-image: url('../images/cartaz\ Adão\ negro.jpg ');
+}
+
+.swiper-slide--four {
+  background-image: url('../images/cartaz\ creed\ 3.jpg');
+}
+
+.swiper-slide--five {
+  background-image: url('../images/cartaz\ flash.jpg');
+}
+
+.swiper-slide--six {
+  background-image: url('../images/cartaz\ jw\ 4.jpg');
+}
+
+.swiper-slide--seven {
+  background-image: url('../images/cartaz\ dr\ estranho.jpg');
+}
+
+.swiper-slide--eight {
+  background-image: url('../images/cartaz\ guardiões.jpg');
+}
+
+.swiper-slide--nine{
+  background-image: url('../images/cartaz\ Panico\ 6jpg.jpg');
+}
+
+
+
+.swiper-slide--onea {
+  background-image: url('../images/cartaz\ a\ pequena\ sereia.jpg');
+  
+}
+
+.swiper-slide--twoa {
+  background-image: url('../images/cartaz\ homem\ aranha.jpg');
+}
+
+.swiper-slide--threea {
+  background-image: url('../images/cartaz\ mega.jpg');
+}
+
+.swiper-slide--foura {
+  background-image: url('../images/Cartaz\ pearl.jpg');
+}
+
+.swiper-slide--fivea {
+  background-image: url('../images/cartaz\ quantum.jpg');
+}
+
+.swiper-slide--sixa {
+  background-image: url('../images/cartaz\ shazam.jpg');
+}
+
+.swiper-slide--sevena {
+  background-image: url('../images/Cartaz\ transformes.jpg');
+}
+
+.swiper-slide--eighta {
+  background-image: url('../images/cartaz\ vfx.jpg');
+}
+
+.swiper-slide--ninea{
+  background-image: url('../images/cartzaz\ 007.jpg');
+}
+
+
+
+
+.swiper-slide--oneb {
+  background-image: url('../images/serie_twd.jpg');
+}
+
+.swiper-slide--twob {
+  background-image: url('../images/serie_lucifer.jpg');
+}
+
+.swiper-slide--threeb {
+  background-image: url('../images/serie_friends.jpg');
+}
+
+.swiper-slide--fourb {
+  background-image: url('../images/serie_got.jpg');
+}
+
+.swiper-slide--fiveb {
+  background-image: url('../images/serie_gotham.jpg');
+}
+
+.swiper-slide--sixb {
+  background-image: url('../images/serie_pb.jpg');
+}
+
+.swiper-slide--sevenb {
+  background-image: url('../images/serie_viking.jpg');
+}
+
+.swiper-slide--eightb {
+  background-image: url('../images/serie_round6.jpg');
+}
+
+.swiper-slide--nineb{
+  background-image: url('../images/serie_supernatural.jpg');
+}
+
+
+
+
+.swiper-slide--onec {
+  background-image: url('../images/serie_hannibal.jpg');
+}
+
+.swiper-slide--twoc {
+  background-image: url('../images/serie_suits.jpg');
+}
+
+.swiper-slide--threec {
+  background-image: url('../images/serie_tlou.jpg');
+}
+
+.swiper-slide--fourc {
+  background-image: url('../images/serie_wandinha.jpg');
+}
+
+.swiper-slide--fivec {
+  background-image: url('../images/series_elite.jpg');
+}
+
+.swiper-slide--sixc {
+  background-image: url('../images/series_tb.jpg');
+}
+
+.swiper-slide--sevenc {
+  background-image: url('../images/serie_zz.jpg');
+}
+
+.swiper-slide--eightc {
+  background-image: url('../images/serie_dark.jpg');
+}
+
+.swiper-slide--ninec{
+  background-image: url('../images/serie_la.jpg');
+}
+
+
+
+
+.swiper-slide--oned {
+  background-image: url('../images/animes_dorohedoro.jpg');
+}
+
+.swiper-slide--twod {
+  background-image: url('../images/animes_demon.jpg');
+}
+
+.swiper-slide--threed {
+  background-image: url('../images/animes_tokyo.jpg');
+}
+
+.swiper-slide--fourd {
+  background-image: url('../images/animes_baki.jpg');
+}
+
+.swiper-slide--fived {
+  background-image: url('../images/animes_naruto.jpg');
+}
+
+.swiper-slide--sixd {
+  background-image: url('../images/animes_onep.jpg');
+}
+
+.swiper-slide--sevend {
+  background-image: url('../images/animes_dragonball.jpg');
+}
+
+.swiper-slide--eightd {
+  background-image: url('../images/animes_hero.jpg');
+}
+
+.swiper-slide--nined{
+  background-image: url('../images/animes_jujutsu.jpg');
+}
+
+
+
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+.lala {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.lala .social {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social .social_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icons a {
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+.social_icons img {
+    width: 50px;
+}
+
+.lala .sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.sobre a {
+    text-decoration: none;
+    color: #505050;
+    margin-left: 1%;
+    font-size: 1.4rem;
+}
+
+.sobre .sele:hover {
+    color: #ffffff;
+}
+
+@media(max-width:940px){
+  .lala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .social_icons a,
+  .social h2 {
+    align-items: center;
+    position: relative;
+    top: 50px;
+
+  }
+
+  .sobre{
+    position: relative;
+    bottom: 15px;
+  }
+
+  .title{
+    margin: 30px 0;
+    justify-content: center;
+    left:0;
+  }
+
+  .title h1{
+    font-size: 1.5rem;
+  }
+}
